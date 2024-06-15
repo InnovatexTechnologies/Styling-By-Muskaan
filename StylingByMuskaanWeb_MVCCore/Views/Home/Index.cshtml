@@ -1,0 +1,497 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Styling By Muskaan</title>
+    <link rel="icon" href="~/Images/Logo.png" type="image/x-icon">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+          href="~/css/Style2.css" />
+    <style>
+        /* Custom styles */
+        .navbar-brand img {
+            height: 10vh;
+        }
+    </style>
+    <!-- <link rel="font" href="feeling_passionate/Feeling Passionate.otf"> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Qwigley&family=Sacramento&family=Style+Script&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+</head>
+
+<body style="overflow-x: hidden; background-color: #fff5ec">
+    <!-- <nav
+      class="navbar navbar-expand-lg bg-body-tertiary sticky-top"
+      style="z-index: 10000; background-color: rgba(255, 245, 236); border-bottom: 4px solid #800000;"
+    >
+      <div class="container-fluid">
+        <div class="col-lg-6" style="z-index: 1">
+          <a
+            class="navbar-brand"
+            href="#"
+            id="navbar-brand"
+            style="color: rgba(128, 0, 0); font-size: 30px; font-weight: 600"
+          >
+           <img src="~/Images/Logo.png" style="height: 10vh;">
+          </a>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <center>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item" style="z-index: 1">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="~/Home/Index"
+                    style="
+                      font-size: 18px;
+                      font-weight: 600;
+                      color: rgba(128, 0, 0);
+                    "
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item" style="z-index: 1">
+                  <a
+                    class="nav-link"
+                    href="~/Home/Index#WorksSection"
+                    style="
+                      font-size: 18px;
+                      font-weight: 600;
+                      margin-left: 10px;
+                      color: rgba(128, 0, 0);
+                    "
+                    >WORKS</a
+                  >
+                </li>
+
+                <li class="nav-item" style="z-index: 1">
+                  <a
+                    class="nav-link"
+                    href="~/Home/Index#ServicesSection"
+                    style="
+                      font-size: 18px;
+                      font-weight: 600;
+                      margin-left: 10px;
+                      color: rgba(128, 0, 0);
+                    "
+                    >SERVICES</a
+                  >
+                </li>
+                <li class="nav-item" style="z-index: 1">
+                  <a
+                    class="nav-link"
+                    href="~/Home/Index#FeedBacksSection"
+                    style="
+                      color: rgba(128, 0, 0);
+                      font-size: 18px;
+                      font-weight: 600;
+                      margin-left: 10px;
+                    "
+                    >FEEDBACKS</a
+                  >
+                </li>
+                <li class="nav-item" style="z-index: 1">
+                  <a
+                    class="nav-link"
+                    href="~/Home/Index#ContactUsSection"
+                    style="
+                      color: rgba(128, 0, 0);
+                      font-size: 18px;
+                      font-weight: 600;
+                      margin-left: 10px;
+                    "
+                    >CONTACT US</a
+                  >
+                </li>
+              </ul>
+            </center>
+          </div>
+        </div>
+      </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" style="z-index: 10000; background-color: rgba(255, 245, 236); border-bottom: 4px solid #800000;">
+        <div class="container-fluid">
+            <div class="col-lg-6 d-flex justify-content-between align-items-center">
+                <a class="navbar-brand" href="#" id="navbar-brand" style="color: rgba(128, 0, 0); font-size: 30px; font-weight: 600">
+                    <img src="~/Images/Logo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars" style="color: rgba(128, 0, 0); font-size: 24px;"></i>
+                </button>
+            </div>
+
+
+            <div class="col-lg-6" style="float: left;">
+                <!-- Hamburger Icon Button -->
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <center>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="~/Home/Index" style="font-size: 18px; font-weight: 600; color: rgba(128, 0, 0);">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/Home/Index#WorksSection" style="font-size: 18px; font-weight: 600; margin-left: 10px; color: rgba(128, 0, 0);">WORKS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/Home/Index#ServicesSection" style="font-size: 18px; font-weight: 600; margin-left: 10px; color: rgba(128, 0, 0);">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/Home/Index#FeedBacksSection" style="color: rgba(128, 0, 0); font-size: 18px; font-weight: 600; margin-left: 10px;">FEEDBACKS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/Home/Index#ContactUsSection" style="color: rgba(128, 0, 0); font-size: 18px; font-weight: 600; margin-left: 10px;">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="Headerrow"
+         style="margin-right: 0px; padding-right: 0px; background-color: #fff5ec">
+        <div class="col-lg-6 TopDivStyle1">
+            <div class="col-lg-1" style="float: left;">&nbsp;</div>
+            <div class="col-lg-11" style="float: left;">
+                <p class="TopDivStyle">
+                    Muskaan Aggarwal
+                </p>
+                <p style="text-align: justify; color: rgba(128, 0, 0); font-size: 16px">
+                    <b>About me -</b>
+                    <br />
+                    With a passion for creativity and an innate sense of style, I am a
+                    dedicated fashion stylist committed to bringing forth unique and
+                    captivating visions in the world of fashion. Over the years, I have
+                    honed my skills through formal education and practical experience,
+                    immersing myself in the intricacies of garment construction, trend
+                    analysis, and visual storytelling.
+                    <br />
+                    <br />
+                    As a fashion stylist, I thrive on the collaborative process, working
+                    closely with clients to understand their aspirations, preferences, and
+                    the message they wish to convey through their attire. Whether it's for
+                    editorial shoots, red carpet events, or personal styling
+                    consultations.
+                    <br />
+                    <br />
+                    With each project, I endeavor to not only create visually stunning
+                    compositions but also to foster a sense of empowerment and
+                    self-expression. Thank you for considering me to be a part of your
+                    fashion journey. I look forward to the opportunity to collaborate and
+                    create something truly remarkable together.
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-6"
+             style="float: left;">
+            <div class="col-lg-11 TopHeaderImageStyle" style="float: left;
+      background-image: url(/Images/TopImage.jpeg); height: 83vh;
+    "></div>
+            <div class="col-lg-1" style="float: left;">&nbsp;</div>
+        </div>
+    </div>
+    <div id="WorksSection" class="row WorksSectionStyle">
+        <h1 class="WorkStyle">
+            WORKS
+        </h1>
+        <div class="col-lg-4 HideInPhone" style="float: left">
+            <div class="col-lg-12"
+                 style="
+            background-image: url(/Images/work1.jpeg);
+            background-position: center;
+            background-size: cover;
+            height: 45vh;
+            margin-top: 50px;
+          "></div>
+            <div class="col-lg-12"
+                 style="
+            background-image: url(/Images/ps17.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 45vh;
+            margin-top: 20px;
+          "></div>
+        </div>
+        <div class="col-lg-8" style="float: left">
+            <p class="PhotoshootStyle">
+                PhotoShoot Styling
+            </p>
+            <div class="col-lg-4 PhotoShootStyleDiv HideInDesktop"
+                 style="
+            background-image: url(/Images/work1.jpeg);
+          "></div>
+            <div class="col-lg-4 PhotoShootStyleDiv HideInDesktop"
+                 style="
+            background-image: url(/Images/ps17.jpg);
+          "></div>
+            <div class="col-lg-4 PhotoShootStyleDiv"
+                 style="
+            background-image: url(/Images/work3.jpg);
+          "></div>
+            <div class="col-lg-4 PhotoShootStyleDiv"
+                 style="
+            background-image: url(/Images/work4.jpg);
+          "></div>
+            <div class="col-lg-4 PhotoShootStyleDiv"
+                 style="
+            background-image: url(/Images/work5.jpg);
+          "></div>
+        </div>
+        <div class="col-lg-8" style="float: left; margin-top: 50px">
+            <div class="col-lg-4 PhotoShootStyleDiv"
+                 style="
+            background-image: url(/Images/ps4.jpg);
+          "></div>
+            <div class="col-lg-4 PhotoShootStyleDiv"
+                 style="
+            background-image: url(/Images/ps11.jpg);
+          "></div>
+            <div class="col-lg-4 PhotoShootStyleDiv"
+                 style="
+            background-image: url(/Images/ps22.jpg);
+          "></div>
+            <div class="col-lg-4 PhotoShootStyleDiv2"
+                 style="
+            background-image: url(/Images/ps23.jpg);
+          "></div>
+            <div class="col-lg-4 PhotoShootStyleDiv2"
+                 style="
+            background-image: url(/Images/ps6.jpg);
+          "></div>
+            <div class="col-lg-4 PhotoShootStyleDiv2"
+                 style="
+            background-image: url(/Images/test2.jpeg);
+          "></div>
+
+        </div>
+        <div class="col-lg-4 PhotoShootStyleDiv3"
+             style="
+          background-image: url(/Images/test1.jpeg);
+        "></div>
+    </div>
+    <div class="row PersonalDivStyle">
+        <h1 class="PersonalStyle">
+            Personal Styling
+        </h1>
+
+        <div class="col-lg-4">
+            </center>
+            <div class="col-lg-11 PersonalStyleDiv"
+                 style="
+        background-image: url(/Images/ps2.jpg);
+      "></div>
+            </center>
+        </div>
+        <div class="col-lg-4">
+            <center>
+                <div class="col-lg-11 PersonalStyleDiv"
+                     style="
+    background-image: url(/Images/ps1.jpg);
+  "></div>
+            </center>
+        </div>
+        <div class="col-lg-4">
+            <center>
+                <div class="col-lg-11 PersonalStyleDiv"
+                     style="
+background-image: url(/Images/ps3.jpg);
+"></div>
+            </center>
+        </div>
+        <h5 style="
+          text-align: center;
+          width: 100%;
+          color: #800000;
+          margin-top: 10px;
+        ">
+            Client - Sonu Aggarwal
+        </h5>
+    </div>
+    <div class="row" style="clear: both;" id="ServicesSection">
+        <div class="col-lg-5 HideInPhone" style="padding: 40px; position: relative;">
+            <!-- <h1 class="ServiceHeading">SERVICES</h1> -->
+            <p class="ProvidedStyle">SERVICES</p>
+            <img src="~/Images/work2.jpeg" class="ProvidedStyle1">
+        </div>
+        <div class="col-lg-5 HideInDesktop" style="padding: 40px; position: relative;">
+            <!-- <h1 class="ServiceHeading">SERVICES</h1> -->
+            <p class="ProvidedStyle33">SERVICES</p>
+            <img src="~/Images/work2.jpeg" class="ProvidedStyle111">
+        </div>
+        <div class="col-lg-7 ProvidedStyle2">
+            <p class="ProvidedStyle3">
+                Personal
+                Styling
+                <br>
+                Wardrobe Decluttering
+                <br>
+                Photoshoot Styling
+                <br>
+                Personal Shopping
+            </p>
+        </div>
+        <div class="row FeedBackStyle" id="FeedBacksSection">
+            <h1 class="FeedBackStyle1">FEEDBACKS</h1>
+            <div class="col-lg-3">
+                <div class="col-lg-12" style="background-color: #fff; color: #800000; padding: 10px; text-align: center; font-weight: 600; border-radius: 10px;">
+                    <p>
+                        Muskaan is highly professional and very sweet to work with. She understands your needs and works according to it.
+                    </p>
+                    <hr>
+                    <span style="font-size: 18px;">
+                        - Sonu Aggarwal
+                    </span>
+                </div>
+                <br>
+                <div class="col-lg-12" style="background-color: #fff; color: #800000; padding: 10px; text-align: center; font-weight: 600; border-radius: 10px;">
+                    <p>
+                        Muskaan has a very sweet nature and will fulfill all your needs.
+                    </p>
+                    <hr>
+                    <span style="font-size: 18px;">
+                        - Kashish Bansal
+                    </span>
+                </div>
+                <br>
+                <div class="col-lg-12" style="background-color: #fff; color: #800000; padding: 10px; text-align: center; font-weight: 600; border-radius: 10px;">
+                    <p>
+                        Muskaan has great knowledge about fashion styling and will make you feel very comfortable throughout the whole process.
+                    </p>
+                    <hr>
+                    <span style="font-size: 18px;">
+                        - Siya Saroj
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="display: block; height: 7vh; clear: both"></div>
+
+        <div class="row parallax-bg FooterStyle" id="ContactUsSection">
+            <div class="col-lg-6" style="float: left;">
+                <center>
+                    <p class="ContactSectionStyle2">
+                        <!-- WE ARE THE BEST FASHION DESIGNERS
+                    <br /> -->
+                        <span class="ContactUsStyle">CONTACT US</span>
+                    </p>
+                    <!-- <span class="socialmediahover"
+                  ><i
+                    class="fa-brands fa-facebook"
+                    style="font-size: 20px; color: #800000"
+                    ></i></span
+                    >&nbsp;&nbsp; -->
+                    <p class="FooterContentStyle">
+
+                        Phone No. - +91 9654833033
+                        <br>Email- <a href="mailto:Stylingbymuskaan@gmail.com" target="_blank" style="text-decoration: none; color: #800000;">Stylingbymuskaan@gmail.com</a>
+                        <br>
+                        Instagram- <a target="_blank" href="https://www.instagram.com/_muskaan_aggarwal?igsh=ZmcwcnBybm90Nm5o&utm_source=qr" style="text-decoration: none; color: #800000;">_muskaan_aggarwal</a>
+                    </p>
+                    </span>
+                    <!-- &nbsp;&nbsp;
+                <span class="socialmediahover"
+                  ><i
+                    class="fa-brands fa-whatsapp"
+                    style="font-size: 20px; color: #800000"
+                  ></i></span
+                >&nbsp;&nbsp;
+                <span class="socialmediahover"
+                  ><i
+                    class="fa-brands fa-twitter"
+                    style="font-size: 20px; color: #800000"
+                  ></i
+                ></span> -->
+                </center>
+            </div>
+            <div class="col-lg-6" style="float: left;">
+                <h3 style="color: #800000; text-align: center; letter-spacing: 2px;"> HAVE A QUESTION ?</h3>
+                <br>
+                <div class="col-lg-2" style="float: left;">
+                    &nbsp;
+                </div>
+                <div class="col-lg-8" style="float: left; background-color: #fff; padding: 20px;">
+                    <form method="post">
+                        <input class="form-control" name="Name" id="Name" type="text" placeholder="Your Name" style="border: none;  border-bottom: 1px solid #ddd; outline: none;" />
+                        <br>
+                        <input class="form-control" name="Email" id="Email" type="text" placeholder="Your Email" style="border: none;  border-bottom: 1px solid #ddd; outline: none;" />
+                        <br>
+                        <textarea name="Message" id="Message" placeholder="Your message for us" rows="5" style="width: calc(100% - 10px); border: none;  border-bottom: 1px solid #ddd; outline: none; padding-left: 10px;"></textarea>
+                        <br>
+                        <br>
+                        <center>
+                            <button type="submit" style="border: 2px solid #000; color: #000; padding: 10px 20px 10px 20px; width: 100%; background-color: #fff; font-weight: 600;">Send Message</button>
+                        </center>
+                    </form>
+                </div>
+                <div class="col-lg-2" style="float: left;">
+                    &nbsp;
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            window.addEventListener("scroll", function () {
+                var navbar = document.querySelector(".navbar");
+                var navLinks = document.querySelectorAll(".nav-link");
+
+                if (window.scrollY > 0) {
+                    navbar.classList.add("navbar-white-bg");
+                    navLinks.forEach(function (link) {
+                        link.classList.add("nav-link-black");
+                    });
+                } else {
+                    navbar.classList.remove("navbar-white-bg");
+                    navLinks.forEach(function (link) {
+                        link.classList.remove("nav-link-black");
+                    });
+                }
+            });
+        </script>
+        <script>
+            window.onscroll = function () {
+                scrollFunction();
+            };
+
+            function scrollFunction() {
+                if (
+                    document.body.scrollTop > 20 ||
+                    document.documentElement.scrollTop > 20
+                ) {
+                    document.getElementById("navbar-brand").style.color = "rgba(128,0,0)";
+                } else {
+                    document.getElementById("navbar-brand").style.color = "rgba(128,0,0)";
+                }
+            }
+        </script>
+        <!-- Bootstrap JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.nav-link').on('click', function () {
+                    $('#navbarSupportedContent').collapse('hide');
+                });
+            });
+        </script>
+</body>
+</html>
